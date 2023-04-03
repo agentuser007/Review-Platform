@@ -20,8 +20,9 @@ window.addEventListener('load', async () => {
     });
   
   // Initialize the Smart Contract
-  const contractAddress = '0x87f823C82f615429E2d72b329DD8a6641040B533'; // Replace with the actual contract address
-  const contractABI = [
+  const contractAddress = '0xf351797537b2E4bda94C4d26D04252a5A3Dd8789'; // Replace with the actual contract address
+  const contractABI = 
+[
 	{
 		"inputs": [
 			{
@@ -183,7 +184,7 @@ await window.contract.methods.addReview(brand, review, rating).send({ from: acco
 alert("Review added successfully!");
 
   // Calculate the reward amount based on the length of the review
-  const rewardAmount = web3.utils.toWei((review.length * 0.0001).toString(), "ether");
+//  const rewardAmount = web3.utils.toWei((review.length * 0.0001).toString(), "ether");
 
   // Transfer the reward to the user's address
   //await window.contract.methods.transfer(account, rewardAmount).send({ from: account });
