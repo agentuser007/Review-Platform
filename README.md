@@ -14,8 +14,8 @@ The Decentralized Review Platform is a web3-enabled application that allows cust
 
 ## Deployment
 
-- Deploy the smart contract to the Ethereum network.
-- Host the application on a web server or cloud platform of your choice.
+- Deploy the smart contract to the Ethereum test network.
+- Host the application on AWS EC2.
 
 ## Built With
 
